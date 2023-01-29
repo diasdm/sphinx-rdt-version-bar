@@ -1,0 +1,23 @@
+[MESSAGES CONTROL]
+disable=fixme,
+        duplicate-code,
+        too-many-arguments,
+        too-many-instance-attributes,
+        too-few-public-methods,
+        consider-iterating-dictionary,
+        too-many-locals,
+        unidiomatic-typecheck, # type and isinstance don't have the same behaviour
+        unsubscriptable-object
+ignore=setup.py, CODEOWNERS
+ignore-patterns=.*pb2.*,
+                .*\.ini,
+                .*yml,
+                .*toml,
+                .*txt,
+                .*\.egg-info,
+                venv,
+                .*\.xml,
+                .*md
+
+[FORMAT]
+max-line-length=100

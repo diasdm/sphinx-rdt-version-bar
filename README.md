@@ -1,0 +1,1 @@
+# Sphinx RDT version bar
